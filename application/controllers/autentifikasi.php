@@ -18,9 +18,9 @@ if ($this->form_validation->run() == false) {
 $data['judul'] = 'Login'; 
 $data['user'] = ''; 
 
-$this->load->view('templates/aute_header', $data); 
+$this->load->view('templates/auth_header', $data); 
 $this->load->view('autentifikasi/login'); 
-$this->load->view('templates/aute_footer'); 
+$this->load->view('templates/auth_footer'); 
 } else { 
 $this->_login(); 
 } 
@@ -91,9 +91,9 @@ public function registrasi()
         
         if ($this->form_validation->run() == false) { 
         $data['judul'] = 'Registrasi Member'; 
-        $this->load->view('templates/aute_header', $data); 
+        $this->load->view('templates/auth_header', $data); 
         $this->load->view('autentifikasi/registrasi'); 
-        $this->load->view('templates/aute_footer'); 
+        $this->load->view('templates/auth_footer'); 
         } else {
           $email = $this->input->post('email', true); 
           $data = [ 
