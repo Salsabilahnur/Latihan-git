@@ -16,7 +16,7 @@
                                    <thead>
                                        <tr>
                                            <th>Nama</th>
-                                           <th>NIS</th>
+                                           <th>NIM</th>
                                            <th>Kelas</th>
                                            <th>Tanggal Lahir</th>
                                            <th>Tempat Lahir</th>
@@ -27,7 +27,7 @@
                                        <?php foreach ($this->ModelSiswa->getSiswa() as $data) : ?>
                                            <tr>
                                                <td><?= $data["nama"]; ?></td>
-                                               <td><?= $data["nis"]; ?></td>
+                                               <td><?= $data["nim"]; ?></td>
                                                <td><?= $data["kelas"]; ?></td>
                                                <td><?= $data["tanggal_lahir"]; ?></td>
                                                <td><?= $data["tempat_lahir"]; ?></td>

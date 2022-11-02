@@ -9,8 +9,8 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="nis" class="form-label">NIS</label>
-                    <input name="nis" type="text" class="form-control" id="nis" placeholder="Nomor Induk Siswa">
+                    <label for="nim" class="form-label">NIM</label>
+                    <input name="nim" type="text" class="form-control" id="nim" placeholder="Nomor Induk Mahasiswa">
                 </div>
 
                 <div class="mb-3">

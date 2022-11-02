@@ -25,7 +25,7 @@ class Tugas extends CI_Controller
     {
         $data = [
             'nama' => htmlspecialchars($this->input->post('nama', true)),
-            'nis' => htmlspecialchars($this->input->post('nis', true)),
+            'nis' => htmlspecialchars($this->input->post('nim', true)),
             'kelas' => htmlspecialchars($this->input->post('kelas', true)),
             'tanggal_lahir' => htmlspecialchars($this->input->post('tanggal_lahir', true)),
             'tempat_lahir' => htmlspecialchars($this->input->post('tempat_lahir', true)),
