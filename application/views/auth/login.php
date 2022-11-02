@@ -30,7 +30,7 @@
                                         <a class="small" href="f<?= base_url('auth/lupaPassword'); ?>">Forgot Password?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="<?= base_url('auth/registrasi'); ?>">Create an Account!</a>
+                                        <a class="small" href="<?= base_url('autentifikasi/registrasi'); ?>">Create an Account!</a>
                                     </div>
                             </div>
                         </div>

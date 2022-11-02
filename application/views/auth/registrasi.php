@@ -42,7 +42,7 @@
                                 <a class="small" href="forgot-password.html">Lupa Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="<?= base_url();?>">Sudah Punya akun? Login!</a>
+                                <a class="small" href="<?= base_url('');?>">Sudah Punya akun? Login!</a>
                             </div>
                         </div>
                     </div>
